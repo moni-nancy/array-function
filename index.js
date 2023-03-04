@@ -24,6 +24,13 @@ console.log(languages);
 
 //Question 3
 /* the answer is ["apple", "mango", "orange"]*/
+let fruit = ['apple', 'mango', 'banana'];
+		function changeFruit( fruit ) {
+    			fruit[2] = "orange";
+    			return fruit;
+		}
+
+    console.log(changeFruit(fruit));
 
 //Question 4
 function max(num) {
